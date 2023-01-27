@@ -1,0 +1,8 @@
+README.md
+setup.py
+SudokuDLXsolver/Sudoku.py
+SudokuDLXsolver/__init__.py
+SudokuDLXsolver.egg-info/PKG-INFO
+SudokuDLXsolver.egg-info/SOURCES.txt
+SudokuDLXsolver.egg-info/dependency_links.txt
+SudokuDLXsolver.egg-info/top_level.txt

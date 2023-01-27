@@ -1,0 +1,1 @@
+This library provides a function to find all possible solutions for a (9x9) Sudoku square.
