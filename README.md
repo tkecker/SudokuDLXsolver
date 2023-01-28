@@ -1,1 +1,3 @@
-This library provides a function to find all possible solutions for a (9x9) Sudoku square.
+This library provides a function to find all possible solutions for a (9x9) Sudoku square using an implementation of Knuth's DLX algorithm.
+
+The main class is SudokuDLXsolver.Sudoku, which is initialised with an 9 x 9 array of digits in {0,1,2,3,4,5,6,7,8,9} (0 stands for an empty box). This also works for n x n squares where n=k^2 is itself a square number (9, 16, 25, ...) and then the array may contain integers {0,1,2,...,n}. The main function in the class is SudokuDLXsolver.Sudoku.solve() that returns an array of Sudoku arrays representing all possible solutions of the Sudoku, i.e. n x n arrays filled with integers {0,1,...n} such that each integer appears exactly once in each row, column and k x k square. 
